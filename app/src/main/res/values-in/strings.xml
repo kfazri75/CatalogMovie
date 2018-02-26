@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Sedang dimainkan</string>
+    <string name="up_coming">Mendatang</string>
+    <string name="search">Pencarian</string>
+    <string name="language">Setting</string>
+    <string name="communicate">Penyampaian</string>
+    <string name="help">Bantuan</string>
+    <string name="about">Tentang</string>
+    <string name="masukan_nama_film">Nama Film</string>
+    <string name="title">Judul</string>
+    <string name="overview">Keterangan</string>
+    <string name="content_overview">Isi Keterangan</string>
+    <string name="details">Detail</string>
+    <string name="content_time">Isi Waktu</string>
+    <string name="time">Waktu</string>
+    <string name="favorite">Favorite</string>
+    <string name="rating">Rating</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">Kosong</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="tv_setting_notification">Notification</string>
+    <string name="tv_setting_daily_reminder_notification">Notifikasi Harian</string>
+    <string name="tv_setting_turn_on_off_daily_reminder">Turn on/off daily reminder</string>
+    <string name="tv_setting_upcoming_reminder_notification">Notifikasi Film Terbaru</string>
+    <string name="tv_setting_turn_on_off_upcoming_reminder">Turn on/off upcoming reminder</string>
+    <string name="tv_setting_settings">Penaturan</string>
+    <string name="tv_setting_locale">Setting Bahasa</string>
+    <string name="tv_setting_change_your_phone_localization">Change your phone localization</string>
+    <string name="message_setup_upcoming">Notifikasi Upcoming Aktif</string>
+    <string name="message_cancel_upcoming">Notifikasi Upcoming Non-aktif</string>
+    <string name="message_setup_daily">DailyReminder Aktif</string>
+    <string name="message_cancel_daily">Repeating alarm cancel</string>
+    <string name="message_notif_daily">Katalog Movie Banyak Film seru&#8230;</string>
+    <string name="err_load_failed">Load Failed</string>
+</resources>

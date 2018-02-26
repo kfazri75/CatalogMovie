@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.d3mstudio.catalogmovie.SettingActivity"
+    tools:showIn="@layout/activity_setting">
+
+    <TextView
+        android:id="@+id/tvNotifTitle"
+        style="@style/TextContent.SettingTitle"
+        android:text="@string/tv_setting_notification"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <LinearLayout
+        android:id="@+id/daily_notif"
+        android:layout_below="@id/tvNotifTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextContent.SettingValue"
+                android:text="@string/tv_setting_daily_reminder_notification"/>
+
+            <TextView
+                style="@style/TextContent"
+                android:text="@string/tv_setting_turn_on_off_daily_reminder"/>
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch_daily"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewDaily"
+        android:layout_below="@id/daily_notif"
+        style="@style/SettingView"/>
+
+    <LinearLayout
+        android:id="@+id/upcoming_notif"
+        android:layout_below="@id/viewDaily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextContent.SettingValue"
+                android:text="@string/tv_setting_upcoming_reminder_notification"/>
+
+            <TextView
+                style="@style/TextContent"
+                android:text="@string/tv_setting_turn_on_off_upcoming_reminder"/>
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch_upcoming"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewupcoming"
+        android:layout_below="@id/upcoming_notif"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/tvSetingTitle"
+        android:layout_below="@id/viewupcoming"
+        style="@style/TextContent.SettingTitle"
+        android:text="@string/tv_setting_settings"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <LinearLayout
+        android:id="@+id/setting_local"
+        android:layout_below="@id/tvSetingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextContent.SettingValue"
+                android:text="@string/tv_setting_locale"/>
+
+            <TextView
+                style="@style/TextContent"
+                android:text="@string/tv_setting_change_your_phone_localization"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_below="@id/setting_local"
+        style="@style/SettingView"/>
+</RelativeLayout>

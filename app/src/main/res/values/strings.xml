@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Catalog Movie</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="up_coming">Upcoming</string>
+    <string name="search">Search</string>
+    <string name="language">Setting</string>
+    <string name="communicate">Communicate</string>
+    <string name="help">Help</string>
+    <string name="about">about</string>
+    <string name="title">Title</string>
+    <string name="overview">Overview</string>
+    <string name="content_overview">Content Overview</string>
+    <string name="details">Details</string>
+    <string name="content_time">Content Time</string>
+    <string name="time">Time</string>
+    <string name="masukan_nama_film">Input Movies</string>
+    <string name="favorite">Favorite</string>
+    <string name="rating">Rating</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_text">Kosong</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="tv_setting_notification">Notification</string>
+    <string name="tv_setting_daily_reminder_notification">Daily Reminder Notification</string>
+    <string name="tv_setting_turn_on_off_daily_reminder">Turn on/off daily reminder</string>
+    <string name="tv_setting_upcoming_reminder_notification">Upcoming Reminder Notification</string>
+    <string name="tv_setting_turn_on_off_upcoming_reminder">Turn on/off upcoming reminder</string>
+    <string name="tv_setting_settings">Settings</string>
+    <string name="tv_setting_locale">Setting Locale</string>
+    <string name="tv_setting_change_your_phone_localization">Change your phone localization</string>
+    <string name="message_setup_upcoming">Upcoming Task set up</string>
+    <string name="message_cancel_upcoming">Upcoming Task Cancel</string>
+    <string name="message_setup_daily">DailyReminder set up</string>
+    <string name="message_cancel_daily">Repeating alarm cancel</string>
+    <string name="message_notif_daily">Catalogue Movie is missing you&#8230;</string>
+    <string name="err_load_failed">Load Failed</string>
+</resources>
