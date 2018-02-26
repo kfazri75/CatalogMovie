@@ -75,11 +75,11 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 * Poster Size : w92, w154, w185, w342, w500, w780, and original
 
 
-# library
+### library
 
-[retrofit](https://github.com/square/retrofit)
-<br>
-[glide](https://github.com/bumptech/glide)
-<br>
-[butterknife](https://github.com/JakeWharton/butterknife)
+* [retrofit](https://github.com/square/retrofit)
+
+* [glide](https://github.com/bumptech/glide)
+
+* [butterknife](https://github.com/JakeWharton/butterknife)
 
