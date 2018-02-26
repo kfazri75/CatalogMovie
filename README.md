@@ -1,8 +1,8 @@
-###Catalog Movie
+### Catalog Movie
 
 Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 
-###Fitur
+### Fitur
 
 1. Search Movie
 2. Upcoming Movie
@@ -13,7 +13,7 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 7. widget Movie Favorit
 
 
-###Screenshots
+### Screenshots
 
 <img src="https://github.com/CF75/CatalogMovie/blob/master/Screenshots/1.png" width="216" height="384">
 <img src="https://github.com/CF75/CatalogMovie/blob/master/Screenshots/2.png" width="216" height="384">
@@ -21,7 +21,7 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 <img src="https://github.com/CF75/CatalogMovie/blob/master/Screenshots/4.png" width="216" height="384">
 <br/>
 
-###Getting started
+### Getting started
 1. Install android Studio, Download [disini](https://developer.android.com/sdk/index.html)
 2. Clone project :
 > git clone https://github.com/CF75/CatalogMovie.git
@@ -29,7 +29,7 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 4. Tunggu hingga android studio selesai building
 5. lanjut ke proses konfigurasi
 
-###Configuration
+### Configuration
 
 1. daftar [disni](https://www.themoviedb.org/documentation/api) untuk mendapatkan API KEY
 2. Buka build.gradle
@@ -51,7 +51,7 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 4. Run Aplikasi
 
 
-###Url TheMoviedb
+### Url TheMoviedb
 
 1. Search Movie
 
@@ -75,7 +75,7 @@ Adalah aplikasi pencari Movie yang terintegrasi dengan api.themoviedb.org
 * Poster Size : w92, w154, w185, w342, w500, w780, and original
 
 
-#library
+# library
 
 [retrofit](https://github.com/square/retrofit)
 <br>
